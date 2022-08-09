@@ -1,0 +1,49 @@
+.element{
+    animation-name: colorChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes colorChange {
+    
+    10% {
+        color:#ff0;
+    }
+
+    18% {
+        color:skyblue;
+    }
+
+    25% {
+        color: violet;
+    }
+    
+    50% {
+        color:lightseagreen;
+        
+        /* background: linear-gradient(indianred,lightseagreen);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+    }
+
+    100% {
+        color: #4caf50;
+    }
+}
+#preloader{
+    background:#ffff url(/assets/pre2.gif) no-repeat center center;
+    background-size: 50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
